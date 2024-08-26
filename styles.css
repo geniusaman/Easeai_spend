@@ -99,3 +99,28 @@ footer {
     color: #5e17eb;
     margin-top: 20px;
 }
+
+/* Chatbot Icon */
+.chatbot-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #5e17eb;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.chatbot-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.chatbot-icon:hover {
+    background-color: #4b13ba;
+}
