@@ -1,0 +1,101 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #5e17eb;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Filters Section */
+.filters-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter {
+    margin-bottom: 15px;
+}
+
+.filter label {
+    display: block;
+    margin-bottom: 5px;
+    color: #5e17eb;
+}
+
+.filter select, 
+.filter input {
+    padding: 8px;
+    width: 100%;
+    max-width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+}
+
+#analyze-btn {
+    padding: 10px 20px;
+    background-color: #6a24f4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#analyze-btn:hover {
+    background-color: #5e17eb;
+}
+
+/* Visualizations Section */
+.visualizations-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.chart {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f3e9ff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #6a24f4;
+}
+
+.chart h2 {
+    margin-bottom: 15px;
+    color: #5e17eb;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f3e9ff;
+    color: #5e17eb;
+    margin-top: 20px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spend Analysis Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Spend Analysis Dashboard</h1>
+    </header>
+
+    <section class="filters-section">
+        <div class="filter">
+            <label for="category">Category:</label>
+            <select id="category">
+                <option value="all">All Categories</option>
+                <!-- Add more options here -->
+            </select>
+        </div>
+        <div class="filter">
+            <label for="subcategory">Subcategory:</label>
+            <select id="subcategory">
+                <option value="all">All Subcategories</option>
+                <!-- Add more options here -->
+            </select>
+        </div>
+        <div class="filter">
+            <label for="product-id">Product ID:</label>
+            <input type="text" id="product-id" placeholder="Enter Product ID">
+        </div>
+        <div class="filter">
+            <label for="country">Country:</label>
+            <select id="country">
+                <option value="all">All Countries</option>
+                <!-- Add more options here -->
+            </select>
+        </div>
+        <div class="filter">
+            <label for="category-manager">Category Manager:</label>
+            <select id="category-manager">
+                <option value="all">All Managers</option>
+                <!-- Add more options here -->
+            </select>
+        </div>
+        <div class="filter">
+            <label for="year">Year:</label>
+            <select id="year">
+                <option value="all">All Years</option>
+                <!-- Add more options here -->
+            </select>
+        </div>
+        <div class="filter">
+            <label for="timeframe">Timeframe:</label>
+            <select id="timeframe">
+                <option value="quarter">Quarter</option>
+                <option value="month">Month</option>
+            </select>
+        </div>
+        <button id="analyze-btn">Analyze</button>
+    </section>
+
+    <section class="visualizations-section">
+        <div class="chart" id="total-spend-by-category">
+            <h2>Total Spend by Category</h2>
+            <!-- Add bar chart here -->
+        </div>
+        <div class="chart" id="main-supplier-vs-tail-spend">
+            <h2>Main Supplier vs Tail Spend</h2>
+            <!-- Add stacked bar chart here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
